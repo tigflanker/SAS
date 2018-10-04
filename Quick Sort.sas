@@ -1,3 +1,8 @@
+/*
+  Author:Tigflanker
+  Date:10Apr2018
+*/
+
 /* 子宏 用途是将输入的值串按照标杆值进行筛选 */
 %macro fliter(align,listf,sign);
 %let temp = ;
