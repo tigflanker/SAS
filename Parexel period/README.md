@@ -9,3 +9,5 @@ TF_Fmt：本宏专注数据集的format功能描述。1. 可从数据集中按�
 TF_Report：仿照默克公司table宏效果，编写画表格宏。通过自定义规则宏变量，对输入数据集做格式化表格输出。
 
 Sharing：Parexel时期所做的SAS technology sharing。
+
+Abortsas：工具，用途是在SAS运行的任意时候，用快捷键调用，来abort SAS；核心就一句%abort cancel。用法：Unix sas：可以存到sasuser.92（sasuser.93）文件夹，再将下句写入某快捷键：afa cat=sasuser.abortsas.abortsas.scl
